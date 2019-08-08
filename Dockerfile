@@ -1,7 +1,7 @@
 FROM alpine AS builder
 COPY . /builder
 
-FROM alpine 
+FROM frolvlad/alpine-gcc 
 LABEL version="1.0"
 LABEL maintainer="fufu@caicloud.io"
 ENV NAME VAR1
