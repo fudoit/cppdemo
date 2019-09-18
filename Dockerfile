@@ -1,4 +1,4 @@
-FROM docker pull test.cargo.io/aa/alpine:gpp 
+FROM test.cargo.io/aa/alpine:gpp 
 LABEL version="1.0"
 LABEL maintainer="fufu@caicloud.io"
 ENV NAME VAR1
