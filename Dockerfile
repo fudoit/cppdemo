@@ -1,7 +1,7 @@
-FROM cargo.caicloudprivatetest.com/qatest/alpine AS builder
+FROM cargo.dev.caicloud.xyz/qatest/alpine AS builder
 COPY . /builder
 
-FROM cargo.caicloudprivatetest.com/qatest/alpine:gpp 
+FROM cargo.dev.caicloud.xyz/qatest/alpine:gpp 
 LABEL version="1.0"
 LABEL maintainer="fufu@caicloud.io"
 ENV NAME VAR1
